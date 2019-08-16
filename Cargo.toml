@@ -1,0 +1,18 @@
+[package]
+name = "grpc-playground"
+version = "0.1.0"
+authors = ["arulselvan.madhavan <arulselvan1234@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+grpcio = "0.4"
+grpcio-proto = "0.4"
+log = "0.4.8"
+futures = "0.1.28"
+slog = "2.5.2"
+slog-async = "2.3.0"
+slog-scope = "4.1.2"
+slog-stdlog = "4.0.0"
+slog-term = "2.4.1"
